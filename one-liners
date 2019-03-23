@@ -1,0 +1,7 @@
+# Bash collections:
+
+add suffix to file name (like test--for example)
+
+```
+for f in *.ext; do cp -- "$f" "$OTHERDIR/old#$f"; done
+```
